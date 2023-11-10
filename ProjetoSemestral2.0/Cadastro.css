@@ -1,0 +1,252 @@
+body {
+    background-color: #CCCFD4;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+header .menu p {
+    color: #9A99FF;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+input {
+    background-color: #9A99FF;
+    padding: 7px 50px;
+    border-radius: 5px;
+}
+
+main .cadastro .inputs .txt p {
+    margin-top: 30px;
+}
+
+main .cadastro .inputs input {
+    margin-top: 5px;
+}
+
+main .cadastro .inputs input:hover {
+    background-color: #6E6FFF;
+    transition: 0.5s;
+}
+
+main .cadastro .esqueciSenha {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+
+
+}
+
+main .cadastro .esqueciSenha a p {
+    border-bottom: 1px solid black;
+
+}
+
+main .cadastro .conectado {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .cadastro .conectado input {
+    padding: 10px;
+}
+
+#mainCadastro #entrar button {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+
+
+
+
+.up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+}
+
+.card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+}
+
+.card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.youtube {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+    fill: #c4302b;
+}
+
+.card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.linkedin {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #0e76a8;
+}
+
+.card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+    fill: white;
+}
+
+.card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+}
+
+.card2:hover .twitter {
+    fill: white;
+}
+
+.card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #c4302b;
+}
+
+.card3:hover .youtube {
+    fill: white;
+}
+
+.card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #0e76a8;
+}
+
+.card4:hover .linkedin {
+    fill: white;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+}
+
+footer .left .logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+footer .left .texto {
+    font-size: 15px;
+
+}
+
+.footer .center a {
+    padding: 10px;
+}
+
+footer .main .titulo {
+    font-size: 20px;
+    text-align: center;
+}
+
+#mainCadastro #entrar{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    justify-content: center;
+}
+#mainCadastro #entrar button {
+    align-items: center;
+    position: relative;
+    height: 50px;
+    padding: 0 30px;
+    border: 2px solid #000;
+    background: #CCCFD4;
+    user-select: none;
+    white-space: nowrap;
+    transition: all .05s linear;
+    font-family: inherit;
+    border-radius: 5px;
+
+     
+    
+}#mainCadastro #entrar button:hover{
+
+    
+}

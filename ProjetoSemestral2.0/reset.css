@@ -1,0 +1,104 @@
+
+/* Reset CSS */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+@font-face {
+    font-family: PoppinsBlack;
+    src: url(Fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: PoppinsB;
+    src: url(Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsI;
+    src: url(Fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: PoppinL;
+    src: url(Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: PoppinsM;
+    src: url(Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: PoppinsR;
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: PoppinsSemiB;
+    src: url(Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: PoppinsThin;
+    src: url(Fonts/Poppins-Thin.ttf);
+}
+
+@font-face {
+    font-family: InterBlack;
+    src: url(Fonts/Inter-Black.ttf);
+}
+
+@font-face {
+    font-family: InterB;
+    src: url(Fonts/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: InterL;
+    src: url(Fonts/Inter-Light.ttf);
+}
+@font-face {
+    font-family: InterM;
+    src: url(Fonts/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: InterR;
+    src: url(Fonts/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: InterSemiB;
+    src: url(Fonts/Inter-SemiBold.ttf);
+}
+@font-face {
+    font-family: InterThin;
+    src: url(Fonts/Inter-Thin.ttf);
+}
